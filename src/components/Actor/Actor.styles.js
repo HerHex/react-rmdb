@@ -17,10 +17,10 @@ export const Wrapper = styled.div`
     }
 `;
 
-export const Image = styled.div`
+export const Image = styled.img`
     display: block;
     width: 100%;
-    height: 100px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
 
