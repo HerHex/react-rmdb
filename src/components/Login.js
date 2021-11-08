@@ -13,7 +13,8 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState(false);
 
-    const [setUser] = useContext(Context);
+    // eslint-disable-next-line
+    const [_user, setUser] = useContext(Context);
     const navigate = useNavigate();
 
     const handleSubmit = async () => { 
