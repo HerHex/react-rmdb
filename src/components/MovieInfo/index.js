@@ -4,7 +4,7 @@ import API from '../../API';
 import Thumb from '../Thumb';
 import Rate from '../Rate';
 //Config
-import { API_KEY, IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
+import {IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
 //Image
 import NoImage from '../../images/no_image.jpg';
 //Styles
